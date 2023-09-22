@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(95, 91, 91);
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__img
+{
+width: 100px;
+}
+
+.logo__h1
+{
+    font-size: 15px;
+    color: white;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar__ul li a
+{
+    color: rgb(202, 202, 214);
+    font-size: 15px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.active
+{
+    color: white !important;
+}
+
+.active-verde
+{
+    color: greenyellow !important;
+}
+
+.bg-vistas
+{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url(imagenes_integrador_front/ba1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card
+{
+    width: 50vw;
+    top: 50px;
+    right: 50px;
+    position: absolute;
+    text-align: right;
+}
+
+.card__h2, .card__p, .card__a1, .card__a2
+{
+    color: white;
+}
+
+.card__a1, .card__a2
+{
+    text-decoration: none;
+}
+
+.card__a1
+{
+    margin: 10px;
+    padding: 10px;
+    /* background-color: green; */
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.card__a2
+{
+    padding: 10px;
+    background-color: green;
+    border-radius: 5px;
+}
