@@ -129,3 +129,33 @@ width: 100px;
     background-color: green;
     border-radius: 5px;
 }
+
+.oradores
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.oradores__h2, .oradores__h3
+{
+    text-align: center;
+}
+
+.card__oradores
+{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.card__orador
+{
+    border: 1px solid gray;
+}
+
+.card__orador img
+{
+    width: 100%;
+}
