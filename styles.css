@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(95, 91, 91);
+    padding: 10px;
 }
 
 .logo
@@ -240,7 +241,7 @@ width: 100px;
     display: grid;
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .fondo img
@@ -278,6 +279,85 @@ width: 100px;
     font-size: 12px;
     text-decoration: none;
     border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.formulario
+{
+    width: 650px;
+    margin: 0 auto;
+}
+
+.formulario__h2, .formulario__h3
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formulario__h2
+{
+    font-size: 9px;
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.formulario__h3
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.formulario__p
+{
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form__flex
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__flex textarea
+{
+    font-size: 18px;
+    padding: 10px;
+    height: 110px;
+}
+
+.form__flex p
+{
+    font-size: 12px;
+    color: gray;
+    margin: 10px 0 20px 0;
+}
+
+.form__input
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.form__input input
+{
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+.form__btn
+{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(106, 171, 8);
+    border: none;
     border-radius: 5px;
     padding: 10px;
 }
