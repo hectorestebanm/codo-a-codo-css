@@ -287,6 +287,7 @@ width: 100px;
 {
     width: 650px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .formulario__h2, .formulario__h3
@@ -314,6 +315,11 @@ width: 100px;
     color: gray;
     text-align: center;
     margin-bottom: 10px;
+}
+
+.formulario__p span
+{
+    text-decoration: underline;
 }
 
 .form__flex
@@ -351,13 +357,41 @@ width: 100px;
     border-radius: 5px;
 }
 
-
 .form__btn
 {
-    font-size: 15px;
+    cursor: pointer;
+    font-size: 16px;
     color: white;
     background-color: rgb(106, 171, 8);
     border: none;
     border-radius: 5px;
     padding: 10px;
+}
+
+.footer
+{
+    background: linear-gradient(to right, rgba(40,65,89,1) 0%, rgba(34,105,181,1) 100%);
+}
+
+.footer__ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer__ul li
+{
+    width: 120px;
+    list-style: none;
+    padding: 25px;
+}
+
+.footer__ul li a
+{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
 }
