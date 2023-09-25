@@ -1,3 +1,4 @@
+/* Configuraciones iniciales */
 *
 {
     margin: 0;
@@ -6,6 +7,7 @@
     font-family: sans-serif;
 }
 
+/* Container para el header del navbar */
 .header-container
 {
     display: flex;
@@ -14,6 +16,7 @@
     padding: 10px;
 }
 
+/* Propiedades css para la parte de logo */
 .logo
 {
     display: flex;
@@ -32,6 +35,7 @@ width: 100px;
     color: white;
 }
 
+/* Propiedades css para la parte de la barra de navegación */
 .navbar
 {
     display: flex;
@@ -54,6 +58,7 @@ width: 100px;
     margin: 10px;
 }
 
+/* Propiedades css para la parte activa dentro del navbar  */
 .active
 {
     color: white !important;
@@ -64,6 +69,7 @@ width: 100px;
     color: greenyellow !important;
 }
 
+/* Propiedad css para el background principal */
 .bg-vistas
 {
     position: relative;
@@ -76,6 +82,7 @@ width: 100px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Bloque para generar el difuminado al background principal */
 .bg-dark
 {
     position: absolute;
@@ -84,6 +91,7 @@ width: 100px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Propiedades css para la card dentro del background-image */
 .card
 {
     width: 500px;
@@ -130,6 +138,7 @@ width: 100px;
     border-radius: 5px;
 }
 
+/* Propiedades css para las cards de los oradores */
 .oradores
 {
     margin-top: 20px;
@@ -155,6 +164,7 @@ width: 100px;
     margin-bottom: 5px;
 }
 
+/* Display grid para generar una fila de 3 columnas */
 .card__oradores
 {
     width: 70%;
@@ -236,6 +246,7 @@ width: 100px;
     background-color: red;
 }
 
+/* Propiedades para el bloque de paisaje con su descripción */
 .paisaje
 {
     display: grid;
@@ -285,6 +296,7 @@ width: 100px;
     padding: 10px;
 }
 
+/* Propiedades css para el bloque del formulario para los oradores */
 .formulario
 {
     width: 650px;
@@ -344,6 +356,7 @@ width: 100px;
     margin: 10px 0 20px 0;
 }
 
+/* Display grid para generar una fila de 2 columnas para los input */
 .form__input
 {
     display: grid;
@@ -370,6 +383,7 @@ width: 100px;
     padding: 10px;
 }
 
+/* Propiedades css para el footer de la página, hecha con una lista ul */
 .footer
 {
     background: linear-gradient(to right, rgba(40,65,89,1) 0%, rgba(34,105,181,1) 100%);
