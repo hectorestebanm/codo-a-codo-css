@@ -269,16 +269,18 @@ width: 100px;
 
 .descripcion__p
 {
+    color: rgb(220, 213, 213);
     font-size: 12px;
-    line-height: 18px;
+    line-height: 22px;
     margin-bottom: 20px;
 }
 
 .descripcion__a
 {
+    color: rgb(220, 213, 213);
     font-size: 12px;
     text-decoration: none;
-    border: 1px solid white;
+    border: 1px solid #dcd5d5;
     border-radius: 5px;
     padding: 10px;
 }
