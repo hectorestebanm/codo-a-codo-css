@@ -32,7 +32,7 @@
 
 .logo__img
 {
-width: 100px;
+    width: 100px;
 }
 
 .logo__h1
@@ -74,6 +74,60 @@ width: 100px;
 {
     color: greenyellow !important;
 }
+
+/* Media query para el header a 375px */
+@media screen and (max-width: 375px)
+{
+    /* Container para el header del navbar */
+    .header-container
+    {
+        width: 375px;
+        flex-direction: column;
+    }
+
+    /* Propiedades css para la parte de logo */
+    .logo
+    {
+    }
+
+    .logo__img
+    {
+    }
+
+    .logo__h1
+    {
+    }
+
+    /* Propiedades css para la parte de la barra de navegación */
+    .navbar
+    {
+    }
+
+    .navbar__ul
+    {
+        flex-direction: column;
+    }
+
+    .navbar__ul li a
+    {
+    }
+
+    /* Propiedades css para la parte activa dentro del navbar  */
+    .active
+    {
+    }
+
+    .active-verde
+    {
+    }
+    
+}
+
+@media screen and (min-width: 768px)
+{
+    
+}
+
 
 /* Propiedad css para el background principal */
 .bg-vistas
@@ -143,6 +197,59 @@ width: 100px;
     padding: 10px 20px;
     background-color: green;
     border-radius: 5px;
+}
+
+/* Media query para el bg-vistas a 375px */
+@media screen and (max-width: 375px)
+{
+    /* Propiedad css para el background principal */
+    .bg-vistas
+    {
+        width: 375px;
+        margin-top: 167px;
+        height: 45vh;
+    }
+
+    /* Bloque para generar el difuminado al background principal */
+    .bg-dark
+    {
+    }
+
+    /* Propiedades css para la card dentro del background-image */
+    .card
+    {
+        width: 90%;
+        top: 30px;
+        right: 30px;
+    }
+
+    .card__h2, .card__p, .card__a1, .card__a2
+    {
+    }
+
+    .card__h2
+    {
+        font-size: 20px;
+    }
+
+    .card__p
+    {
+        font-size: 12px;
+    }
+
+    .card__a1, .card__a2
+    {
+        font-size: 12px;
+    }
+
+    .card__a1
+    {
+    }
+
+    .card__a2
+    {
+    }
+
 }
 
 /* Propiedades css para las cards de los oradores */
@@ -253,6 +360,71 @@ width: 100px;
     background-color: red;
 }
 
+/* Media query para oradores a 375px */
+@media screen and (max-width: 375px)
+{
+    /* Propiedades css para las cards de los oradores */
+    .oradores
+    {
+    }
+
+    .oradores__h2, .oradores__h3
+    {
+    }
+
+    .oradores__h2
+    {
+    }
+
+    .oradores__h3
+    {
+    }
+
+    /* Display grid para generar una fila de 3 columnas */
+    .card__oradores
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card__orador
+    {
+    }
+
+    .card__orador img
+    {
+    }
+
+    .card__orador__1, .card__orador__2, .card__orador__3
+    {
+    }
+
+    .card__orador__1 h3, .card__orador__2 h3, .card__orador__3 h3
+    {
+    }
+
+    .card__orador__1 p, .card__orador__2 p, .card__orador__3 p
+    {
+    }
+
+    .card__orador__1 .javascript, .card__orador__2 .javascript
+    {
+    }
+
+    .card__orador__1 .react, .card__orador__2 .react
+    {
+    }
+
+    .card__orador__3 .negocios
+    {
+    }
+
+    .card__orador__3 .startups
+    {
+    }
+    
+}
+
 /* Propiedades para el bloque de paisaje con su descripción */
 .paisaje
 {
@@ -301,6 +473,42 @@ width: 100px;
     border: 1px solid #dcd5d5;
     border-radius: 5px;
     padding: 10px;
+}
+
+/* Media query para paisaje a 375px */
+@media screen and (max-width: 375px)
+{
+    /* Propiedades para el bloque de paisaje con su descripción */
+    .paisaje
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fondo img
+    {
+    }
+
+    .descripcion
+    {
+    }
+
+    .descripcion__h3, .descripcion__p, .descripcion__a
+    {
+    }
+
+    .descripcion__h3
+    {
+    }
+
+    .descripcion__p
+    {
+    }
+
+    .descripcion__a
+    {
+    }
+    
 }
 
 /* Propiedades css para el bloque del formulario para los oradores */
@@ -390,6 +598,74 @@ width: 100px;
     padding: 10px;
 }
 
+/* Media query para el formulario a 375px */
+@media screen and (max-width: 375px)
+{
+    /* Propiedades css para el bloque del formulario para los oradores */
+    .formulario
+    {
+        width: 375px;
+    }
+
+    .formulario__h2, .formulario__h3
+    {
+    }
+
+    .formulario__h2
+    {
+    }
+
+    .formulario__h3
+    {
+    }
+
+    .formulario__p
+    {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .formulario__p span
+    {
+    }
+
+    .form__flex
+    {
+    }
+
+    .form__flex textarea
+    {
+        width: 300px;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    .form__flex p
+    {
+        text-align: center;
+    }
+
+    /* Display grid para generar una fila de 2 columnas para los input */
+    .form__input
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__input input
+    {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .form__btn
+    {
+        width: 250px;
+        margin: 0 auto;
+    }
+    
+}
+
 /* Propiedades css para el footer de la página, hecha con una lista ul */
 .footer
 {
@@ -418,4 +694,30 @@ width: 100px;
     font-size: 13px;
     color: white;
     text-decoration: none;
+}
+
+
+/* Media query para el footer a 375px */
+@media screen and (max-width: 375px)
+{
+    /* Propiedades css para el footer de la página, hecha con una lista ul */
+    .footer
+    {
+    }
+
+    .footer__ul
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer__ul li
+    {
+        padding: 10px;
+    }
+
+    .footer__ul li a
+    {
+    }
+    
 }
