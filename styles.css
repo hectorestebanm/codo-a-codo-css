@@ -75,13 +75,13 @@
     color: greenyellow !important;
 }
 
-/* Media query para el header a 375px */
-@media screen and (max-width: 375px)
+/* Media query para el header a 480px */
+@media screen and (max-width: 480px)
 {
     /* Container para el header del navbar */
     .header-container
     {
-        width: 375px;
+        /* width: 375px; */
         flex-direction: column;
     }
 
@@ -108,8 +108,9 @@
         flex-direction: column;
     }
 
-    .navbar__ul li a
+    .navbar__ul li
     {
+        padding: 4px 0;
     }
 
     /* Propiedades css para la parte activa dentro del navbar  */
@@ -122,12 +123,6 @@
     }
     
 }
-
-@media screen and (min-width: 768px)
-{
-    
-}
-
 
 /* Propiedad css para el background principal */
 .bg-vistas
@@ -199,14 +194,14 @@
     border-radius: 5px;
 }
 
-/* Media query para el bg-vistas a 375px */
-@media screen and (max-width: 375px)
+/* Media query para el bg-vistas a 480px */
+@media screen and (max-width: 480px)
 {
     /* Propiedad css para el background principal */
     .bg-vistas
     {
-        width: 375px;
-        margin-top: 167px;
+        /* width: 375px; */
+        margin-top: 207px;
         height: 45vh;
     }
 
@@ -360,8 +355,8 @@
     background-color: red;
 }
 
-/* Media query para oradores a 375px */
-@media screen and (max-width: 375px)
+/* Media query para oradores a 480px */
+@media screen and (max-width: 480px)
 {
     /* Propiedades css para las cards de los oradores */
     .oradores
@@ -385,6 +380,7 @@
     {
         display: flex;
         flex-direction: column;
+        width: 60%;
     }
 
     .card__orador
@@ -475,8 +471,8 @@
     padding: 10px;
 }
 
-/* Media query para paisaje a 375px */
-@media screen and (max-width: 375px)
+/* Media query para paisaje a 480px */
+@media screen and (max-width: 480px)
 {
     /* Propiedades para el bloque de paisaje con su descripción */
     .paisaje
@@ -598,13 +594,13 @@
     padding: 10px;
 }
 
-/* Media query para el formulario a 375px */
-@media screen and (max-width: 375px)
+/* Media query para el formulario a 480px */
+@media screen and (max-width: 480px)
 {
     /* Propiedades css para el bloque del formulario para los oradores */
     .formulario
     {
-        width: 375px;
+        width: 480px;
     }
 
     .formulario__h2, .formulario__h3
@@ -635,7 +631,7 @@
 
     .form__flex textarea
     {
-        width: 300px;
+        width: 350px;
         font-size: 15px;
         margin: 0 auto;
     }
@@ -654,13 +650,13 @@
 
     .form__input input
     {
-        width: 300px;
+        width: 350px;
         margin: 0 auto;
     }
 
     .form__btn
     {
-        width: 250px;
+        width: 300px;
         margin: 0 auto;
     }
     
@@ -697,8 +693,8 @@
 }
 
 
-/* Media query para el footer a 375px */
-@media screen and (max-width: 375px)
+/* Media query para el footer a 480px */
+@media screen and (max-width: 480px)
 {
     /* Propiedades css para el footer de la página, hecha con una lista ul */
     .footer
