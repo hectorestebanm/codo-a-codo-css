@@ -81,7 +81,7 @@
     /* Container para el header del navbar */
     .header-container
     {
-        /* width: 375px; */
+        width: 463px;
         flex-direction: column;
     }
 
