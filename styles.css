@@ -64,6 +64,11 @@
     margin: 10px;
 }
 
+.navbar__ul li a:hover
+{
+    color: yellow!important;
+}
+
 /* Propiedades css para la parte activa dentro del navbar  */
 .active
 {
@@ -195,11 +200,23 @@
     border-radius: 5px;
 }
 
+.card__a1:hover
+{
+    color: black;
+    background-color: white;
+}
+
 .card__a2
 {
     padding: 10px 20px;
     background-color: green;
     border-radius: 5px;
+}
+
+.card__a2:hover
+{
+    color: green;
+    background-color: white;
 }
 
 @media screen and (min-width: 481px) and (max-width: 992px)
@@ -487,6 +504,12 @@
     padding: 10px;
 }
 
+.descripcion__a:hover
+{
+    color: rgb(55, 54, 54);
+    background-color: rgb(220, 213, 213);
+}
+
 /* Media query para paisaje a 480px */
 @media screen and (max-width: 480px)
 {
@@ -610,6 +633,11 @@
     padding: 10px;
 }
 
+.form__btn:hover
+{
+    background-color: rgb(55, 54, 54);
+}
+
 /* Media query para el formulario a 480px */
 @media screen and (max-width: 480px)
 {
@@ -708,6 +736,10 @@
     text-decoration: none;
 }
 
+.footer__ul li a:hover
+{
+    color: yellow;
+}
 
 /* Media query para el footer a 480px */
 @media screen and (max-width: 480px)
