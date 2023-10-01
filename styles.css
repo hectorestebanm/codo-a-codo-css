@@ -75,6 +75,14 @@
     color: greenyellow !important;
 }
 
+@media screen and (min-width: 481px) and (max-width: 768px)
+{
+    .header-container
+    {
+        flex-direction: column;
+    }
+}
+
 /* Media query para el header a 480px */
 @media screen and (max-width: 480px)
 {
