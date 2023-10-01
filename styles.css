@@ -75,7 +75,7 @@
     color: greenyellow !important;
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px)
+@media screen and (min-width: 481px) and (max-width: 992px)
 {
     .header-container
     {
@@ -200,6 +200,14 @@
     padding: 10px 20px;
     background-color: green;
     border-radius: 5px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 992px)
+{
+    .bg-vistas
+    {
+        height: 70vh;
+    }
 }
 
 /* Media query para el bg-vistas a 480px */
