@@ -80,15 +80,17 @@
     color: greenyellow !important;
 }
 
+/* Media query para el header entre 481px y 992px. Lista en fila */
 @media screen and (min-width: 481px) and (max-width: 992px)
 {
+    /* Container para el header del navbar */
     .header-container
     {
         flex-direction: column;
     }
 }
 
-/* Media query para el header a 480px */
+/* Media query para el header a 480px. Lista en columna */
 @media screen and (max-width: 480px)
 {
     /* Container para el header del navbar */
@@ -97,44 +99,14 @@
         width: 463px;
         flex-direction: column;
     }
-
-    /* Propiedades css para la parte de logo */
-    .logo
-    {
-    }
-
-    .logo__img
-    {
-    }
-
-    .logo__h1
-    {
-    }
-
-    /* Propiedades css para la parte de la barra de navegación */
-    .navbar
-    {
-    }
-
     .navbar__ul
     {
         flex-direction: column;
     }
-
     .navbar__ul li
     {
         padding: 4px 0;
-    }
-
-    /* Propiedades css para la parte activa dentro del navbar  */
-    .active
-    {
-    }
-
-    .active-verde
-    {
-    }
-    
+    }    
 }
 
 /* Propiedad css para el background principal */
@@ -219,6 +191,7 @@
     background-color: white;
 }
 
+/* Media query para el bg-vistas entre 481px y 992px */
 @media screen and (min-width: 481px) and (max-width: 992px)
 {
     .bg-vistas
@@ -237,12 +210,6 @@
         margin-top: 207px;
         height: 45vh;
     }
-
-    /* Bloque para generar el difuminado al background principal */
-    .bg-dark
-    {
-    }
-
     /* Propiedades css para la card dentro del background-image */
     .card
     {
@@ -250,34 +217,18 @@
         top: 30px;
         right: 30px;
     }
-
-    .card__h2, .card__p, .card__a1, .card__a2
-    {
-    }
-
     .card__h2
     {
         font-size: 20px;
     }
-
     .card__p
     {
         font-size: 12px;
     }
-
     .card__a1, .card__a2
     {
         font-size: 12px;
     }
-
-    .card__a1
-    {
-    }
-
-    .card__a2
-    {
-    }
-
 }
 
 /* Propiedades css para las cards de los oradores */
@@ -345,6 +296,7 @@
     line-height: 17px;
 }
 
+/* Estilo para los diferentes lenguajes de programación */
 .card__orador__1 .javascript, .card__orador__2 .javascript
 {
     font-size: 11px;
@@ -391,67 +343,13 @@
 /* Media query para oradores a 480px */
 @media screen and (max-width: 480px)
 {
-    /* Propiedades css para las cards de los oradores */
-    .oradores
-    {
-    }
-
-    .oradores__h2, .oradores__h3
-    {
-    }
-
-    .oradores__h2
-    {
-    }
-
-    .oradores__h3
-    {
-    }
-
-    /* Display grid para generar una fila de 3 columnas */
+    /* Display flex para generar una fila de oradores */
     .card__oradores
     {
         display: flex;
         flex-direction: column;
         width: 60%;
     }
-
-    .card__orador
-    {
-    }
-
-    .card__orador img
-    {
-    }
-
-    .card__orador__1, .card__orador__2, .card__orador__3
-    {
-    }
-
-    .card__orador__1 h3, .card__orador__2 h3, .card__orador__3 h3
-    {
-    }
-
-    .card__orador__1 p, .card__orador__2 p, .card__orador__3 p
-    {
-    }
-
-    .card__orador__1 .javascript, .card__orador__2 .javascript
-    {
-    }
-
-    .card__orador__1 .react, .card__orador__2 .react
-    {
-    }
-
-    .card__orador__3 .negocios
-    {
-    }
-
-    .card__orador__3 .startups
-    {
-    }
-    
 }
 
 /* Propiedades para el bloque de paisaje con su descripción */
@@ -513,37 +411,12 @@
 /* Media query para paisaje a 480px */
 @media screen and (max-width: 480px)
 {
-    /* Propiedades para el bloque de paisaje con su descripción */
+    /* Propiedades para el bloque de paisaje con su descripción en una sola columna */
     .paisaje
     {
         display: flex;
         flex-direction: column;
     }
-
-    .fondo img
-    {
-    }
-
-    .descripcion
-    {
-    }
-
-    .descripcion__h3, .descripcion__p, .descripcion__a
-    {
-    }
-
-    .descripcion__h3
-    {
-    }
-
-    .descripcion__p
-    {
-    }
-
-    .descripcion__a
-    {
-    }
-    
 }
 
 /* Propiedades css para el bloque del formulario para los oradores */
@@ -622,6 +495,7 @@
     border-radius: 5px;
 }
 
+/* Estilo para el boton de formulario */
 .form__btn
 {
     cursor: pointer;
@@ -638,80 +512,54 @@
     background-color: rgb(55, 54, 54);
 }
 
-/* Media query para el formulario a 480px */
-@media screen and (max-width: 480px)
+/* Media query para el formulario a 992px */
+@media screen and (max-width: 992px)
 {
     /* Propiedades css para el bloque del formulario para los oradores */
     .formulario
     {
         width: 463px;
     }
-
-    .formulario__h2, .formulario__h3
-    {
-    }
-
-    .formulario__h2
-    {
-    }
-
-    .formulario__h3
-    {
-    }
-
     .formulario__p
     {
         font-size: 12px;
         padding: 10px;
     }
-
-    .formulario__p span
-    {
-    }
-
-    .form__flex
-    {
-    }
-
     .form__flex textarea
     {
         width: 350px;
         font-size: 15px;
         margin: 0 auto;
     }
-
     .form__flex p
     {
         text-align: center;
     }
-
-    /* Display grid para generar una fila de 2 columnas para los input */
+    /* Display flex para generar una columna para los input */
     .form__input
     {
         display: flex;
         flex-direction: column;
     }
-
+    /* Centrado de los input con margin */
     .form__input input
     {
         width: 350px;
         margin: 0 auto;
     }
-
     .form__btn
     {
         width: 300px;
         margin: 0 auto;
     }
-    
 }
 
 /* Propiedades css para el footer de la página, hecha con una lista ul */
 .footer
 {
+    /* Gradiente al background del footer */
     background: linear-gradient(to right, rgba(40,65,89,1) 0%, rgba(34,105,181,1) 100%);
 }
-
 .footer__ul
 {
     display: flex;
@@ -720,7 +568,6 @@
     width: 80%;
     margin: 0 auto;
 }
-
 .footer__ul li
 {
     width: 120px;
@@ -741,27 +588,20 @@
     color: yellow;
 }
 
-/* Media query para el footer a 480px */
-@media screen and (max-width: 480px)
+
+/* Media query para el footer a 992px */
+@media screen and (max-width: 992px)
 {
     /* Propiedades css para el footer de la página, hecha con una lista ul */
-    .footer
-    {
-    }
-
     .footer__ul
     {
+        /* Grilla de 3 columnas para el footer hasta llegar a 992px  */
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
     }
-
     .footer__ul li
     {
         padding: 10px;
-    }
-
-    .footer__ul li a
-    {
-    }
-    
+    }   
 }
