@@ -12,7 +12,7 @@ const resumen = document.querySelector(".form__btn__resumen");
 
 const ticket = 200;
 const descEstudiante = 0.8;
-const desctrainee = 0.5;
+const descTrainee = 0.5;
 const descJunior = 0.15;
 
 // const total 
@@ -60,19 +60,27 @@ resumen.addEventListener("click", (e)=>
     switch(categoria.value)
     {
         case "Estudiante":
-            pagar.textContent = `El valor es: $${ticket}`;
+            total = cantidad.value * ticket - cantidad.value * ticket * descEstudiante;
+            pagar.textContent = `El valor es: $${total}`;
             alert("Elegiste categoria Estudiante");
             break;
         case "Trainee":
-            pagar.textContent = `El valor es: $${ticket}`;
+            total = cantidad.value * ticket - cantidad.value * ticket * descTrainee;
+            pagar.textContent = `El valor es: $${total}`;
             alert("Elegiste categoria Trainee");
             break;
         case "Junior":
-            pagar.textContent = `El valor es: $${ticket}`;
+            total = cantidad.value * ticket - cantidad.value * ticket * descJunior;
+            pagar.textContent = `El valor es: $${total}`;
             alert("Elegiste categoria Junior");
             break;
         default:
             pagar.textContent = "El valor es: $";
             alert("No elegiste Categoria");
     }
+    if(nombre.value !== "" && apellido.value !== "" && email.value !== "")
+    {
+        alert("Los campos de información fueron ingresados correctamente");
+    }
+
 });
